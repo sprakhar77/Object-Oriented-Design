@@ -20,5 +20,6 @@ HEADERS += \
     isearch.h \
     librarian.h \
     member.h \
+    notification.h \
     person.h \
     rack.h

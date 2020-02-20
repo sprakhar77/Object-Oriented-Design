@@ -12,7 +12,7 @@ public:
     bool returnBook(BookItem bookItem);
     bool renewBook(BookItem bookItem);
 
-    virtual AccountStatus type() const override;
+    virtual AccountStatus status() const override;
 
 private:
     int m_totalBooksChecked;
