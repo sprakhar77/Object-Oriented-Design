@@ -1,10 +1,10 @@
-#include "address.h"
+#include "Address.h"
 
 #include <string>
 
 class Person
 {
-protected:
+public:
     std::string m_name;
     std::string m_email;
     std::string m_phone;

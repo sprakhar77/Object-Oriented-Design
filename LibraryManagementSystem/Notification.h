@@ -1,11 +1,11 @@
-#include "member.h"
+#include "Member.h"
 
 class Notification
 {
 public:
     virtual bool send(Member mebmer) const = 0;
 protected:
-    std::string m_contenet;
+    std::string m_content;
     Date m_createdOn;
 };
 

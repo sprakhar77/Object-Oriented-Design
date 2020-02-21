@@ -1,4 +1,4 @@
-#include "isearch.h"
+#include "ISearch.h"
 
 class Catalog : ISearch
 {

@@ -9,6 +9,6 @@ protected:
     std::string m_publisher;
     std::string m_subject;
     std::string m_language;
-    int numberOfpages;
     std::vector<std::string> m_authors;
+    int numberOfpages;
 };

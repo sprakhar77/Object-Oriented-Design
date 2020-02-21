@@ -7,19 +7,19 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    account.h \
-    address.h \
-    book.h \
-    bookitem.h \
-    booklending.h \
-    bookreservation.h \
-    catalog.h \
-    enums.h \
-    fine.h \
-    finetransaction.h \
-    isearch.h \
-    librarian.h \
-    member.h \
-    notification.h \
-    person.h \
-    rack.h
+    Account.h \
+    Address.h \
+    Book.h \
+    BookItem.h \
+    BookLending.h \
+    BookReservation.h \
+    Catalog.h \
+    Enums.h \
+    Fine.h \
+    FineTransaction.h \
+    ISearch.h \
+    Librarian.h \
+    Member.h \
+    Notification.h \
+    Person.h \
+    Rack.h

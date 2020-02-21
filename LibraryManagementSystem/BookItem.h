@@ -1,6 +1,6 @@
-#include "book.h"
-#include "enums.h"
-#include "rack.h"
+#include "Book.h"
+#include "Enums.h"
+#include "Rack.h"
 
 class Date;
 
