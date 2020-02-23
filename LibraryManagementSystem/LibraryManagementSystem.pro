@@ -9,6 +9,7 @@ SOURCES += \
 HEADERS += \
     Account.h \
     Address.h \
+    Author.h \
     Book.h \
     BookItem.h \
     BookLending.h \
@@ -19,6 +20,7 @@ HEADERS += \
     FineTransaction.h \
     ISearch.h \
     Librarian.h \
+    Library.h \
     Member.h \
     Notification.h \
     Person.h \

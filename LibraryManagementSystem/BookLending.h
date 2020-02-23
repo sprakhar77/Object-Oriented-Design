@@ -8,6 +8,8 @@ public:
     static BookLending fetchlending(std::string bookItemBarcode);
     static void lendBook(std::string bookItemBarcode, std::string memberId);
 
+    Date getReturnDate();
+
 private:
     Date m_creationData;
     Date m_dueDate;

@@ -10,6 +10,10 @@ class Account
 public:
     bool resetPassword();
     Date dateOfCreation();
+    virtual ~Account();
+
+protected:
+    Account();
 
 protected:
     std::string m_id;

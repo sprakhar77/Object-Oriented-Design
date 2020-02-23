@@ -7,6 +7,7 @@ class Date;
 class BookReservation
 {
 public:
+    BookStatus getStatus();
     static BookReservation fetchReservation(std::string barcode);
 
 private:
