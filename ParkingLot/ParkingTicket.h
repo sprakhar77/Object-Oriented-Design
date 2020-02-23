@@ -1,0 +1,4 @@
+#ifndef PARKINGTICKET_H
+#define PARKINGTICKET_H
+
+#endif // PARKINGTICKET_H

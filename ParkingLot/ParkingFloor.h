@@ -1,0 +1,4 @@
+#ifndef PARKINGFLOOR_H
+#define PARKINGFLOOR_H
+
+#endif // PARKINGFLOOR_H

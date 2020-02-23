@@ -1,0 +1,4 @@
+#ifndef ELECTRICPANEL_H
+#define ELECTRICPANEL_H
+
+#endif // ELECTRICPANEL_H
