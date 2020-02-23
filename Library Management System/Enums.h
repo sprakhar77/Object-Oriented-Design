@@ -34,6 +34,20 @@ enum class AccountStatus
     NONE
 };
 
+enum class NotificationType
+{
+    CHECQUE,
+    CARD,
+    CASH
+};
+
+enum class TransactionType
+{
+    EMAIL,
+    PHONE,
+    POST
+};
+
 namespace constants
 {
     static int MAX_BOOK_ISSUED_TO_USER = 5;

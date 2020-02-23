@@ -8,10 +8,10 @@ class BookReservation
 {
 public:
     BookStatus getStatus();
-    static BookReservation fetchReservation(std::string barcode);
 
 private:
     Date m_creationDate;
+    Date m_dueDate;
     ReservationStatus m_status;
     std::string m_bookItemBarCode;
     std::string m_memberId;

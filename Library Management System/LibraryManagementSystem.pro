@@ -12,16 +12,16 @@ HEADERS += \
     Author.h \
     Book.h \
     BookItem.h \
-    BookLending.h \
-    BookReservation.h \
     Catalog.h \
     Enums.h \
-    Fine.h \
-    FineTransaction.h \
     ISearch.h \
     Librarian.h \
     Library.h \
     Member.h \
-    Notification.h \
     Person.h \
-    Rack.h
+    Rack.h \
+    services/Reservation.h \
+    services/Transaction.h \
+    services/Notification.h \
+    services/BookReservation.h \
+    services/Fine.h \
