@@ -14,6 +14,7 @@ HEADERS += \
     EntrancePanel.h \
     Enums.h \
     ExitPanel.h \
+    InfoPanel.h \
     ParkingAttendent.h \
     ParkingDisplayBoard.h \
     ParkingFloor.h \
@@ -21,5 +22,5 @@ HEADERS += \
     ParkingSpot.h \
     ParkingTicket.h \
     Person.h \
-    Transcation.h \
-    Vehicle.h
+    Vehicle.h \
+    services/Payment.h

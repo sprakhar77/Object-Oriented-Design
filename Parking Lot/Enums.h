@@ -31,3 +31,10 @@ enum class ParkingTicketStatus
     PAID,
     LOST
 };
+
+enum class PaymentType
+{
+    CARD,
+    CHEQUE,
+    CASH
+};

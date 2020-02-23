@@ -1,4 +1,12 @@
-#ifndef ENTRANCEPANEL_H
-#define ENTRANCEPANEL_H
+#include <string>
 
-#endif // ENTRANCEPANEL_H
+class ParkingTicket;
+
+class EntrancePanel
+{
+public:
+    ParkingTicket printTicket();
+
+private:
+    std::string m_id;
+};

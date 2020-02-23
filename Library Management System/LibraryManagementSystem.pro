@@ -20,8 +20,8 @@ HEADERS += \
     Member.h \
     Person.h \
     Rack.h \
+    services/Payment.h \
     services/Reservation.h \
-    services/Transaction.h \
     services/Notification.h \
     services/BookReservation.h \
     services/Fine.h \

@@ -1,4 +1,14 @@
-#ifndef EXITPANEL_H
-#define EXITPANEL_H
+#include <string>
 
-#endif // EXITPANEL_H
+class Payment;
+class ParkingTicket;
+
+class ExitPanel
+{
+public:
+    void scanTicket(ParkingTicket ticket);
+    bool processPayment(Payment Payment);
+
+private:
+    std::string m_id;
+};

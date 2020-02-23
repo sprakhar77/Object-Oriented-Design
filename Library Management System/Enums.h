@@ -34,14 +34,14 @@ enum class AccountStatus
     NONE
 };
 
-enum class NotificationType
+enum class PaymentType
 {
     CHECQUE,
     CARD,
     CASH
 };
 
-enum class TransactionType
+enum class NotificationType
 {
     EMAIL,
     PHONE,

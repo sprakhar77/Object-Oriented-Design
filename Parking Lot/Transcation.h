@@ -1,4 +1,0 @@
-#ifndef TRANSCATION_H
-#define TRANSCATION_H
-
-#endif // TRANSCATION_H

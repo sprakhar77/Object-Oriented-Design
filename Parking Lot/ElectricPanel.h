@@ -1,4 +1,11 @@
-#ifndef ELECTRICPANEL_H
-#define ELECTRICPANEL_H
+class Date;
 
-#endif // ELECTRICPANEL_H
+class ElectricPanel
+{
+public:
+    void cancelCharging();
+    double getChargingAmount();
+private:
+
+    Date m_chargingStartTime;
+};
