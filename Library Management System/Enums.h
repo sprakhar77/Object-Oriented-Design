@@ -41,6 +41,15 @@ enum class PaymentType
     CASH
 };
 
+enum class PaymentStatus
+{
+    COMPLETE,
+    PENDING,
+    FAILED,
+    DECLINED,
+    CANCELD
+};
+
 enum class NotificationType
 {
     EMAIL,

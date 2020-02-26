@@ -1,4 +1,21 @@
-#ifndef ORDER_H
-#define ORDER_H
+#include <string>
+#include <vector>
 
-#endif // ORDER_H
+#include <Enums.h>
+
+class Date;
+class OrderLog;
+class ProductItems;
+
+class Order
+{
+public:
+    void sendForShipment();
+    bool addOrderLog(OrderLog orderLog);
+
+private:
+    std::string m_memeberId;
+    Date m_createdDate;
+    std::vector<ProductItems> m_items;
+    std::vector<OrderLog> m_log;
+};

@@ -1,4 +1,15 @@
-#ifndef CUSTOMER_H
-#define CUSTOMER_H
+#include <vector>
 
-#endif // CUSTOMER_H
+class ShoppingCart;
+class ProductItem;
+
+class ICustomer
+{
+public:
+    bool addItemTocart(ProductItem item);
+    bool removeItemFromCard(ProductItem item);
+    ShoppingCart getShoppingCart();
+
+private:
+    ShoppingCart m_shoppingCart;
+};

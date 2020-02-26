@@ -1,4 +1,11 @@
-#ifndef PRODUCTREVIEW_H
-#define PRODUCTREVIEW_H
+#include<string>
 
-#endif // PRODUCTREVIEW_H
+class Member;
+
+class ProductReview
+{
+public:
+    int m_rating;
+    std::string m_description;
+    Member m_member;
+};

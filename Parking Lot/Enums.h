@@ -38,3 +38,12 @@ enum class PaymentType
     CHEQUE,
     CASH
 };
+
+enum class PaymentStatus
+{
+    COMPLETE,
+    PENDING,
+    FAILED,
+    DECLINED,
+    CANCELD
+};

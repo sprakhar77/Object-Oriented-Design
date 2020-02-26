@@ -1,4 +1,8 @@
-#ifndef PRODUCTCATEGORY_H
-#define PRODUCTCATEGORY_H
+#include <string>
 
-#endif // PRODUCTCATEGORY_H
+class ProductCategory
+{
+public:
+    std::string m_name;
+    std::string m_description;
+};

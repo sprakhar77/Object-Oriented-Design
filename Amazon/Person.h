@@ -1,4 +1,12 @@
-#ifndef PERSON_H
-#define PERSON_H
+#include<string>
 
-#endif // PERSON_H
+class Address;
+
+class Person
+{
+public:
+    std::string m_name;
+    Address m_address;
+    std::string m_phone;
+    std::string m_email;
+};

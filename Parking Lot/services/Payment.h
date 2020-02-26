@@ -7,19 +7,19 @@ class Checque;
 class Payment
 {
     Payment(PaymentType type) : m_type(type){}
-    virtual bool initatePayment() = 0;
+    virtual PaymentStatus makePayment() = 0;
 
 private:
     Date m_createdAt;
-    double m_amount;
     PaymentType m_type;
+    PaymentStatus m_status;
 };
 
 class CreditCardPayment : public Payment
 {
 public:
     CreditCardPayment() : Payment(PaymentType::CARD){}
-    bool initatePayment() override;
+    PaymentStatus makePayment() override;
 
 private:
     CreditCard m_card;
@@ -29,7 +29,7 @@ class ChecquePayment : public Payment
 {
 public:
     ChecquePayment() : Payment(PaymentType::CHEQUE){}
-    bool initatePayment() override;
+    PaymentStatus makePayment() override;
 
 private:
     CreditCard m_card;
@@ -40,7 +40,7 @@ class CashPayment : public Payment
 {
 public:
     CashPayment() : Payment(PaymentType::CASH){}
-    bool initatePayment() override;
+    PaymentStatus makePayment() override;
 
 private:
     CreditCard m_card;

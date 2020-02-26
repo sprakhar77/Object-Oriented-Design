@@ -1,4 +1,12 @@
-#ifndef PRODUCTITEM_H
-#define PRODUCTITEM_H
+#include <string>
 
-#endif // PRODUCTITEM_H
+class ProductItem
+{
+public:
+    void updateQuantity(int quantity);
+
+private:
+    std::string m_productId;
+    double m_price;
+    int m_quantity;
+};

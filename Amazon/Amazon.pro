@@ -8,11 +8,14 @@ SOURCES += \
 
 HEADERS += \
     Account.h \
+    Address.h \
     Admin.h \
+    Amazon.h \
     Catalog.h \
     CreditCard.h \
     ElectronicBank.h \
     Enums.h \
+    Guest.h \
     ICustomer.h \
     ISearch.h \
     Member.h \
