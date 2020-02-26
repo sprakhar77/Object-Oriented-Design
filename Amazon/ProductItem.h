@@ -1,0 +1,4 @@
+#ifndef PRODUCTITEM_H
+#define PRODUCTITEM_H
+
+#endif // PRODUCTITEM_H

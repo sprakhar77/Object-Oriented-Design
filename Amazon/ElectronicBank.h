@@ -1,0 +1,4 @@
+#ifndef ELECTRONICBANK_H
+#define ELECTRONICBANK_H
+
+#endif // ELECTRONICBANK_H

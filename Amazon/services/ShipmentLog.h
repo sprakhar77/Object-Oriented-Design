@@ -1,0 +1,4 @@
+#ifndef SHIPMENTLOG_H
+#define SHIPMENTLOG_H
+
+#endif // SHIPMENTLOG_H
