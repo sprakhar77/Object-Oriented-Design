@@ -1,4 +1,5 @@
 #include <Enums.h>
+#include <string>
 
 class Date;
 
@@ -6,7 +7,7 @@ class Payment
 {
 public:
     Payment(PaymentType type) : m_type(type){}
-    virtual PaymentStatus makePayment(double amount) = 0;
+    virtual PaymentStatus makePayment(std::string orderId, double amount) = 0;
 
 private:
     PaymentType m_type;
@@ -17,12 +18,12 @@ class CardPayment : public Payment
 {
 public:
     CardPayment() : Payment(PaymentType::CARD){}
-    virtual PaymentStatus makePayment(double amount) override;
+    virtual PaymentStatus makePayment(std::string orderId, double amount) override;
 };
 
 class ElectronicBankPayment : public Payment
 {
 public:
     ElectronicBankPayment() : Payment(PaymentType::ELECTRONICBANK){}
-    virtual PaymentStatus makePayment(double amount) override;
+    virtual PaymentStatus makePayment(std::string orderId, double amount) override;
 };
