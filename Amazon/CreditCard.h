@@ -2,7 +2,7 @@
 
 class CreditCard
 {
-public:
+private:
     std::string m_nameOnCard;
     std::string m_cardNumber;
     std::string m_vaildThrough;

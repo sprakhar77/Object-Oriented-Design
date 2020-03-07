@@ -2,7 +2,7 @@
 
 class Badge
 {
-public:
+private:
     std::string m_name;
     std::string m_description;
 };

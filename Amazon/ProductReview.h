@@ -4,7 +4,7 @@ class Member;
 
 class ProductReview
 {
-public:
+private:
     int m_rating;
     std::string m_description;
     Member m_member;

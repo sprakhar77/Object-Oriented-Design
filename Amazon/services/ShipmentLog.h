@@ -6,7 +6,7 @@ class Date;
 
 class ShipmentLog
 {
-public:
+private:
     std::string m_shipmentNumber;
     Date m_createdDate;
     ShipmentStatus m_status;

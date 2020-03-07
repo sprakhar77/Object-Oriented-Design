@@ -5,7 +5,7 @@ class CinemaHall;
 
 class Show
 {
-public:
+private:
     Date m_date;
     Movie m_movie;
     CinemaHall m_payedAt;

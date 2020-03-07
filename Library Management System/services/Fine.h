@@ -4,7 +4,7 @@ class Date;
 
 class Fine
 {
-public:
+private:
     int m_amount;
     Date m_creationDate;
     std::string m_bookBarCode;

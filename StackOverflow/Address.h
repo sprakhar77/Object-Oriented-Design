@@ -2,7 +2,7 @@
 
 class Address
 {
-public:
+private:
     std::string m_street;
     std::string m_city;
     std::string m_state;

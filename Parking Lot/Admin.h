@@ -18,7 +18,4 @@ public:
     bool addAttendentInfoPanel(std::string floorName, AttendentInfoPanel);
     bool addEntrancePanel(EntrancePanel panel);
     bool addExitPanel(ExitPanel panel);
-
-private:
-
 };

@@ -5,7 +5,7 @@ class ElectricPanel
 public:
     void cancelCharging();
     double getChargingAmount();
-private:
 
+private:
     Date m_chargingStartTime;
 };

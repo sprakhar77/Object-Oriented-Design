@@ -28,7 +28,6 @@ private:
     std::map<std::string, MotorBikeSpot> m_motorBikeSpot;
     std::map<std::string, CustomerInfoPanel> m_customerInfoPanel;
     std::map<std::string, ParkingInfoPanel> m_parkingInfoPanel;
-
     ParkingDisplayBoard m_parkingDisplayBoard;
 
 };

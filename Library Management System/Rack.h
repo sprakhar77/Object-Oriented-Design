@@ -2,7 +2,7 @@
 
 class Rack
 {
-public:
+private:
     int m_sequenceNumber;
     std::string m_locationFinder;
 };
